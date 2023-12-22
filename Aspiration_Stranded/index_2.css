@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(68, 60, 60);
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Make sure it's above other elements */
+}
+
+
+.aslogo{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -5%;
+    box-shadow: 12px 12px 29px #837979;
+}
+
+.about{
+    margin-left: 75%;
+    margin-top: -3.5%;
+    position: absolute;
+    font-size: 20px;
+    cursor: pointer;
+}
+.a1 {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.a2 {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+.a3 {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+/* navbar end */
+.ser_div{
+    margin-left: 4%;
+    margin-top: 11%;
+    position: absolute;
+    width: 150px;
+    height: 450px;
+    background-color: #585252;
+    border-radius: 5%;
+    box-shadow: 5px 10px 8px rgb(137, 128, 128);
+   
+}
+.letter{
+    margin-top: 40%;
+    text-align: center;
+}
+.h3{
+    
+    margin-top: 5cqb;
+    margin-left: 1rem;
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    border-radius: 10%;
+    color: white;
+    text-align: center;
+   
+}
+.h4{
+   
+   
+    margin-top: 15cqb;
+    margin-left: 5%;
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    border-radius: 10%;
+    color: white;
+    text-align: center;   
+}
+
+.h5{
+   
+    
+    margin-top: 25cqb;
+    margin-left: 5%;
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    border-radius: 10%;
+    color: white;
+    text-align: center;   
+}
+.h6{
+   
+    margin-top: 35cqb;
+    margin-left: 5%;
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    border-radius: 10%;
+    color: white;
+    text-align: center; 
+    
+}
+
+/* footer */
+.footeras{
+    height: 50px;
+   width: 1500px;
+   background-color: #ffffff;
+   position: fixed;
+   bottom: 0%;
+   z-index: 1000;
+} 
+
+.fb{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left: 1.5cm;
+    margin-top: -1cm;
+    cursor: pointer;
+
+}
+.ig{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left: 2.6cm;
+    margin-top: -1cm;
+    cursor: pointer;
+}

@@ -1,0 +1,162 @@
+body {
+    padding-top: 60px; /* Adjust this value based on the height of your navbar */
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 2, 3);
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Make sure it's above other elements */
+}
+
+
+.aslogo{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -5%;
+    box-shadow: 12px 12px 29px #837979;
+}
+
+.about{
+    margin-left: 75%;
+    margin-top: -3.5%;
+    position: absolute;
+    font-size: 20px;
+    cursor: pointer;
+}
+.a1 {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.a2 {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+.a3 {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+/* WinDiv */
+.container1{
+    
+    width: 1500px;
+    height: 600px;
+    background-color: rgb(68, 60, 60);
+    color: white;
+}
+
+.winj{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin-left: 60%;
+    border-radius: 50%;
+    opacity: 80%;
+    margin-top: 3cm;
+    box-shadow: 12px 12px 29px #837979;
+    
+}
+.webh1{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 5.5cm;  
+}
+.pwin{
+    position: absolute;
+    padding: 10px;
+    width: 600px;
+    height: 200px;
+    margin-left: 10%;
+    margin-top: 7.5cm;
+    box-shadow: 12px 12px 29px #837979;
+
+}
+
+/* MyoDiv */
+.myodiv{
+    
+    width: 1500px;
+    height: 600px;
+    background-color: rgb(68, 60, 60);
+    color: aliceblue;
+    
+}
+
+.myologo{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-left: 2%;
+    margin-top: 1%;
+    box-shadow: 12px 12px 29px #837979;
+}
+.myoh1{
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 5cm; 
+}
+.myop{
+    position: absolute;
+    padding: 10px;
+    width: 600px;
+    height: 200px;
+    margin-left: 45%;
+    margin-top: 7cm;
+    box-shadow: 12px 12px 29px #837979;
+}
+/* footer */
+.footeras{
+    height: 40px;
+    z-index: 1000;
+}
+
+.fb{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left: 1.5cm;
+    margin-top: -1cm;
+    cursor: pointer;
+
+}
+.ig{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left: 2.6cm;
+    margin-top: -1cm;
+    cursor: pointer;
+}
+/* myo and win ig fb */
+.myoig{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left: 1.5cm;
+    margin-top: 1cm;
+    cursor: pointer;
+    box-shadow: 12px 12px 29px #837979;
+    border-radius: 50%;
+}
+.myofb{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left: 0cm;
+    margin-top: 1cm;
+    cursor: pointer;
+    box-shadow: 12px 12px 29px #837979;
+    border-radius: 50%;
+}
